@@ -1,0 +1,233 @@
+{
+  "id": "valsim-demo-b-players-v1",
+  "event_id": "valsim-demo-group-b",
+  "observed_through": "2026-01-12",
+  "agent_roles": {"Kestrel-7":"Duelist","Vector-9":"Duelist","Beacon-4":"Initiator","Compass-2":"Initiator","Nimbus-6":"Controller","Obscura-5":"Controller","Anchor-8":"Sentinel","Lockstep-3":"Sentinel"},
+  "sources": [
+    {"id":"valsim-demo","label":"Fictional demo source","url":"https://github.com/Unknownuserfrommars/ValSim/blob/main/data/player_snapshots/demo_group_b.json","note":"Original synthetic series scores, players, agents and skill telemetry."}
+  ],
+  "roster": [
+    {"id":"arc-p1","handle":"OnyxFennel","team":"ARC","represented_region":"Demo region","listed_as":"player"},
+    {"id":"arc-p2","handle":"QuartzTick","team":"ARC","represented_region":"Demo region","listed_as":"player"},
+    {"id":"arc-p3","handle":"CopperVela","team":"ARC","represented_region":"Demo region","listed_as":"player"},
+    {"id":"arc-p4","handle":"EmberJuniper","team":"ARC","represented_region":"Demo region","listed_as":"player"},
+    {"id":"arc-p5","handle":"LarkVoss","team":"ARC","represented_region":"Demo region","listed_as":"player"},
+    {"id":"bnd-p1","handle":"StoneMorrow","team":"BND","represented_region":"Demo region","listed_as":"player"},
+    {"id":"bnd-p2","handle":"JuniperPeak","team":"BND","represented_region":"Demo region","listed_as":"player"},
+    {"id":"bnd-p3","handle":"VelvetTide","team":"BND","represented_region":"Demo region","listed_as":"player"},
+    {"id":"bnd-p4","handle":"PrismSalt","team":"BND","represented_region":"Demo region","listed_as":"player"},
+    {"id":"bnd-p5","handle":"CyanReed","team":"BND","represented_region":"Demo region","listed_as":"player"},
+    {"id":"dep-p1","handle":"AxiomDock","team":"DEP","represented_region":"Demo region","listed_as":"player"},
+    {"id":"dep-p2","handle":"FinchRust","team":"DEP","represented_region":"Demo region","listed_as":"player"},
+    {"id":"dep-p3","handle":"RavenRill","team":"DEP","represented_region":"Demo region","listed_as":"player"},
+    {"id":"dep-p4","handle":"ShiftVine","team":"DEP","represented_region":"Demo region","listed_as":"player"},
+    {"id":"dep-p5","handle":"NimbusPike","team":"DEP","represented_region":"Demo region","listed_as":"player"},
+    {"id":"wav-p1","handle":"KiteUmber","team":"WAV","represented_region":"Demo region","listed_as":"player"},
+    {"id":"wav-p2","handle":"TesseraVeil","team":"WAV","represented_region":"Demo region","listed_as":"player"},
+    {"id":"wav-p3","handle":"AnchorTeal","team":"WAV","represented_region":"Demo region","listed_as":"player"},
+    {"id":"wav-p4","handle":"CobaltThorn","team":"WAV","represented_region":"Demo region","listed_as":"player"},
+    {"id":"wav-p5","handle":"LatticeDusk","team":"WAV","represented_region":"Demo region","listed_as":"player"},
+    {"id":"pls-p1","handle":"VesperBark","team":"PLS","represented_region":"Demo region","listed_as":"player"},
+    {"id":"pls-p2","handle":"CairnSparks","team":"PLS","represented_region":"Demo region","listed_as":"player"},
+    {"id":"pls-p3","handle":"MorrowBell","team":"PLS","represented_region":"Demo region","listed_as":"player"},
+    {"id":"pls-p4","handle":"HollowQuartz","team":"PLS","represented_region":"Demo region","listed_as":"player"},
+    {"id":"pls-p5","handle":"DriftFlare","team":"PLS","represented_region":"Demo region","listed_as":"player"},
+    {"id":"rft-p1","handle":"FeralGlyph","team":"RFT","represented_region":"Demo region","listed_as":"player"},
+    {"id":"rft-p2","handle":"RuneAcre","team":"RFT","represented_region":"Demo region","listed_as":"player"},
+    {"id":"rft-p3","handle":"MantisMint","team":"RFT","represented_region":"Demo region","listed_as":"player"},
+    {"id":"rft-p4","handle":"RillCloud","team":"RFT","represented_region":"Demo region","listed_as":"player"},
+    {"id":"rft-p5","handle":"CrescentAsh","team":"RFT","represented_region":"Demo region","listed_as":"player"}
+  ],
+  "group_series": [
+    {
+      "id": "arc-rft",
+      "played_on": "2026-01-10",
+      "team_a": "ARC",
+      "team_b": "RFT",
+      "source_id": "valsim-demo",
+      "source_url": "https://github.com/Unknownuserfrommars/ValSim/blob/main/data/player_snapshots/demo_group_b.json",
+      "maps": [{"name":"Far Relay","score":[13,7]},{"name":"Granite Gate","score":[8,13]},{"name":"Breaker Cove","score":[13,9]}],
+      "players": [
+        {"player_id":"arc-p1","kills":46,"deaths":40,"assists":10,"agents":["Kestrel-7"],"skill_telemetry":{"aim_duels_won":6,"aim_duel_attempts":12,"first_kills":8,"first_deaths":13,"utility_assists":8,"clutches_won":1,"clutch_opportunities":3,"trade_kills":4,"trade_opportunities":13}},
+        {"player_id":"arc-p2","kills":48,"deaths":44,"assists":14,"agents":["Beacon-4","Compass-2"],"skill_telemetry":{"aim_duels_won":7,"aim_duel_attempts":14,"first_kills":7,"first_deaths":7,"utility_assists":10,"clutches_won":1,"clutch_opportunities":6,"trade_kills":6,"trade_opportunities":18}},
+        {"player_id":"arc-p3","kills":46,"deaths":30,"assists":18,"agents":["Nimbus-6"],"skill_telemetry":{"aim_duels_won":8,"aim_duel_attempts":17,"first_kills":4,"first_deaths":5,"utility_assists":17,"clutches_won":0,"clutch_opportunities":5,"trade_kills":3,"trade_opportunities":10}},
+        {"player_id":"arc-p4","kills":44,"deaths":33,"assists":16,"agents":["Anchor-8"],"skill_telemetry":{"aim_duels_won":9,"aim_duel_attempts":19,"first_kills":4,"first_deaths":5,"utility_assists":16,"clutches_won":0,"clutch_opportunities":4,"trade_kills":4,"trade_opportunities":15}},
+        {"player_id":"arc-p5","kills":42,"deaths":36,"assists":20,"agents":["Beacon-4"],"skill_telemetry":{"aim_duels_won":5,"aim_duel_attempts":12,"first_kills":4,"first_deaths":6,"utility_assists":20,"clutches_won":3,"clutch_opportunities":3,"trade_kills":5,"trade_opportunities":20}},
+        {"player_id":"rft-p1","kills":44,"deaths":46,"assists":7,"agents":["Kestrel-7"],"skill_telemetry":{"aim_duels_won":9,"aim_duel_attempts":15,"first_kills":11,"first_deaths":9,"utility_assists":7,"clutches_won":0,"clutch_opportunities":3,"trade_kills":3,"trade_opportunities":13}},
+        {"player_id":"rft-p2","kills":35,"deaths":50,"assists":11,"agents":["Beacon-4","Compass-2"],"skill_telemetry":{"aim_duels_won":9,"aim_duel_attempts":17,"first_kills":8,"first_deaths":5,"utility_assists":11,"clutches_won":0,"clutch_opportunities":6,"trade_kills":10,"trade_opportunities":18}},
+        {"player_id":"rft-p3","kills":33,"deaths":53,"assists":15,"agents":["Nimbus-6"],"skill_telemetry":{"aim_duels_won":11,"aim_duel_attempts":20,"first_kills":5,"first_deaths":5,"utility_assists":14,"clutches_won":3,"clutch_opportunities":5,"trade_kills":5,"trade_opportunities":10}},
+        {"player_id":"rft-p4","kills":31,"deaths":36,"assists":20,"agents":["Anchor-8"],"skill_telemetry":{"aim_duels_won":7,"aim_duel_attempts":13,"first_kills":6,"first_deaths":4,"utility_assists":16,"clutches_won":3,"clutch_opportunities":4,"trade_kills":8,"trade_opportunities":15}},
+        {"player_id":"rft-p5","kills":40,"deaths":41,"assists":24,"agents":["Beacon-4"],"skill_telemetry":{"aim_duels_won":8,"aim_duel_attempts":15,"first_kills":6,"first_deaths":4,"utility_assists":23,"clutches_won":2,"clutch_opportunities":3,"trade_kills":11,"trade_opportunities":20}}
+      ]
+    },
+    {
+      "id": "bnd-pls",
+      "played_on": "2026-01-10",
+      "team_a": "BND",
+      "team_b": "PLS",
+      "source_id": "valsim-demo",
+      "source_url": "https://github.com/Unknownuserfrommars/ValSim/blob/main/data/player_snapshots/demo_group_b.json",
+      "maps": [{"name":"Switchyard","score":[6,13]},{"name":"Night Market","score":[9,13]}],
+      "players": [
+        {"player_id":"bnd-p1","kills":29,"deaths":29,"assists":5,"agents":["Kestrel-7","Vector-9"],"skill_telemetry":{"aim_duels_won":7,"aim_duel_attempts":13,"first_kills":6,"first_deaths":8,"utility_assists":5,"clutches_won":2,"clutch_opportunities":3,"trade_kills":2,"trade_opportunities":10}},
+        {"player_id":"bnd-p2","kills":22,"deaths":32,"assists":6,"agents":["Beacon-4"],"skill_telemetry":{"aim_duels_won":7,"aim_duel_attempts":15,"first_kills":5,"first_deaths":4,"utility_assists":6,"clutches_won":2,"clutch_opportunities":6,"trade_kills":9,"trade_opportunities":15}},
+        {"player_id":"bnd-p3","kills":20,"deaths":33,"assists":9,"agents":["Nimbus-6"],"skill_telemetry":{"aim_duels_won":8,"aim_duel_attempts":18,"first_kills":2,"first_deaths":3,"utility_assists":9,"clutches_won":1,"clutch_opportunities":5,"trade_kills":11,"trade_opportunities":20}},
+        {"player_id":"bnd-p4","kills":18,"deaths":23,"assists":13,"agents":["Anchor-8"],"skill_telemetry":{"aim_duels_won":9,"aim_duel_attempts":20,"first_kills":3,"first_deaths":3,"utility_assists":13,"clutches_won":1,"clutch_opportunities":4,"trade_kills":6,"trade_opportunities":12}},
+        {"player_id":"bnd-p5","kills":27,"deaths":26,"assists":16,"agents":["Beacon-4","Compass-2"],"skill_telemetry":{"aim_duels_won":6,"aim_duel_attempts":13,"first_kills":3,"first_deaths":4,"utility_assists":16,"clutches_won":0,"clutch_opportunities":3,"trade_kills":9,"trade_opportunities":17}},
+        {"player_id":"pls-p1","kills":27,"deaths":22,"assists":5,"agents":["Kestrel-7","Vector-9"],"skill_telemetry":{"aim_duels_won":7,"aim_duel_attempts":13,"first_kills":7,"first_deaths":7,"utility_assists":5,"clutches_won":1,"clutch_opportunities":6,"trade_kills":4,"trade_opportunities":13}},
+        {"player_id":"pls-p2","kills":32,"deaths":24,"assists":6,"agents":["Beacon-4"],"skill_telemetry":{"aim_duels_won":8,"aim_duel_attempts":15,"first_kills":5,"first_deaths":4,"utility_assists":6,"clutches_won":1,"clutch_opportunities":5,"trade_kills":6,"trade_opportunities":18}},
+        {"player_id":"pls-p3","kills":30,"deaths":25,"assists":9,"agents":["Nimbus-6"],"skill_telemetry":{"aim_duels_won":9,"aim_duel_attempts":18,"first_kills":3,"first_deaths":3,"utility_assists":9,"clutches_won":0,"clutch_opportunities":4,"trade_kills":3,"trade_opportunities":10}},
+        {"player_id":"pls-p4","kills":28,"deaths":27,"assists":13,"agents":["Anchor-8"],"skill_telemetry":{"aim_duels_won":10,"aim_duel_attempts":20,"first_kills":4,"first_deaths":2,"utility_assists":13,"clutches_won":0,"clutch_opportunities":3,"trade_kills":4,"trade_opportunities":15}},
+        {"player_id":"pls-p5","kills":26,"deaths":18,"assists":16,"agents":["Beacon-4","Compass-2"],"skill_telemetry":{"aim_duels_won":7,"aim_duel_attempts":13,"first_kills":3,"first_deaths":3,"utility_assists":16,"clutches_won":3,"clutch_opportunities":6,"trade_kills":5,"trade_opportunities":20}}
+      ]
+    },
+    {
+      "id": "dep-wav",
+      "played_on": "2026-01-10",
+      "team_a": "DEP",
+      "team_b": "WAV",
+      "source_id": "valsim-demo",
+      "source_url": "https://github.com/Unknownuserfrommars/ValSim/blob/main/data/player_snapshots/demo_group_b.json",
+      "maps": [{"name":"Observatory","score":[7,13]},{"name":"Far Relay","score":[10,13]}],
+      "players": [
+        {"player_id":"dep-p1","kills":34,"deaths":28,"assists":6,"agents":["Kestrel-7"],"skill_telemetry":{"aim_duels_won":7,"aim_duel_attempts":14,"first_kills":6,"first_deaths":8,"utility_assists":6,"clutches_won":3,"clutch_opportunities":3,"trade_kills":4,"trade_opportunities":9}},
+        {"player_id":"dep-p2","kills":28,"deaths":31,"assists":10,"agents":["Beacon-4"],"skill_telemetry":{"aim_duels_won":8,"aim_duel_attempts":16,"first_kills":5,"first_deaths":4,"utility_assists":10,"clutches_won":3,"clutch_opportunities":6,"trade_kills":7,"trade_opportunities":14}},
+        {"player_id":"dep-p3","kills":26,"deaths":34,"assists":13,"agents":["Nimbus-6"],"skill_telemetry":{"aim_duels_won":9,"aim_duel_attempts":19,"first_kills":3,"first_deaths":3,"utility_assists":13,"clutches_won":2,"clutch_opportunities":5,"trade_kills":9,"trade_opportunities":19}},
+        {"player_id":"dep-p4","kills":24,"deaths":35,"assists":16,"agents":["Anchor-8","Lockstep-3"],"skill_telemetry":{"aim_duels_won":6,"aim_duel_attempts":12,"first_kills":4,"first_deaths":3,"utility_assists":16,"clutches_won":2,"clutch_opportunities":4,"trade_kills":5,"trade_opportunities":11}},
+        {"player_id":"dep-p5","kills":22,"deaths":24,"assists":13,"agents":["Beacon-4"],"skill_telemetry":{"aim_duels_won":7,"aim_duel_attempts":14,"first_kills":3,"first_deaths":4,"utility_assists":13,"clutches_won":1,"clutch_opportunities":3,"trade_kills":7,"trade_opportunities":16}},
+        {"player_id":"wav-p1","kills":34,"deaths":22,"assists":7,"agents":["Kestrel-7"],"skill_telemetry":{"aim_duels_won":11,"aim_duel_attempts":20,"first_kills":7,"first_deaths":7,"utility_assists":7,"clutches_won":2,"clutch_opportunities":4,"trade_kills":6,"trade_opportunities":13}},
+        {"player_id":"wav-p2","kills":27,"deaths":25,"assists":11,"agents":["Beacon-4"],"skill_telemetry":{"aim_duels_won":7,"aim_duel_attempts":13,"first_kills":5,"first_deaths":4,"utility_assists":10,"clutches_won":2,"clutch_opportunities":3,"trade_kills":7,"trade_opportunities":18}},
+        {"player_id":"wav-p3","kills":25,"deaths":27,"assists":14,"agents":["Nimbus-6"],"skill_telemetry":{"aim_duels_won":8,"aim_duel_attempts":16,"first_kills":3,"first_deaths":4,"utility_assists":14,"clutches_won":1,"clutch_opportunities":6,"trade_kills":4,"trade_opportunities":10}},
+        {"player_id":"wav-p4","kills":34,"deaths":29,"assists":10,"agents":["Anchor-8","Lockstep-3"],"skill_telemetry":{"aim_duels_won":9,"aim_duel_attempts":18,"first_kills":4,"first_deaths":3,"utility_assists":10,"clutches_won":1,"clutch_opportunities":5,"trade_kills":6,"trade_opportunities":15}},
+        {"player_id":"wav-p5","kills":32,"deaths":31,"assists":14,"agents":["Beacon-4"],"skill_telemetry":{"aim_duels_won":10,"aim_duel_attempts":20,"first_kills":3,"first_deaths":3,"utility_assists":14,"clutches_won":0,"clutch_opportunities":4,"trade_kills":7,"trade_opportunities":20}}
+      ]
+    },
+    {
+      "id": "arc-pls",
+      "played_on": "2026-01-11",
+      "team_a": "ARC",
+      "team_b": "PLS",
+      "source_id": "valsim-demo",
+      "source_url": "https://github.com/Unknownuserfrommars/ValSim/blob/main/data/player_snapshots/demo_group_b.json",
+      "maps": [{"name":"Breaker Cove","score":[13,9]},{"name":"Switchyard","score":[11,13]},{"name":"Night Market","score":[13,11]}],
+      "players": [
+        {"player_id":"arc-p1","kills":59,"deaths":35,"assists":6,"agents":["Kestrel-7"],"skill_telemetry":{"aim_duels_won":7,"aim_duel_attempts":15,"first_kills":11,"first_deaths":11,"utility_assists":6,"clutches_won":0,"clutch_opportunities":5,"trade_kills":10,"trade_opportunities":18}},
+        {"player_id":"arc-p2","kills":50,"deaths":38,"assists":11,"agents":["Beacon-4"],"skill_telemetry":{"aim_duels_won":8,"aim_duel_attempts":17,"first_kills":9,"first_deaths":7,"utility_assists":11,"clutches_won":0,"clutch_opportunities":4,"trade_kills":5,"trade_opportunities":10}},
+        {"player_id":"arc-p3","kills":48,"deaths":41,"assists":16,"agents":["Nimbus-6","Obscura-5"],"skill_telemetry":{"aim_duels_won":9,"aim_duel_attempts":20,"first_kills":6,"first_deaths":4,"utility_assists":16,"clutches_won":3,"clutch_opportunities":3,"trade_kills":7,"trade_opportunities":15}},
+        {"player_id":"arc-p4","kills":46,"deaths":45,"assists":21,"agents":["Anchor-8"],"skill_telemetry":{"aim_duels_won":6,"aim_duel_attempts":13,"first_kills":6,"first_deaths":4,"utility_assists":21,"clutches_won":2,"clutch_opportunities":6,"trade_kills":10,"trade_opportunities":20}},
+        {"player_id":"arc-p5","kills":44,"deaths":49,"assists":26,"agents":["Beacon-4","Nimbus-6"],"skill_telemetry":{"aim_duels_won":6,"aim_duel_attempts":15,"first_kills":6,"first_deaths":6,"utility_assists":26,"clutches_won":2,"clutch_opportunities":5,"trade_kills":5,"trade_opportunities":12}},
+        {"player_id":"pls-p1","kills":52,"deaths":59,"assists":9,"agents":["Kestrel-7"],"skill_telemetry":{"aim_duels_won":6,"aim_duel_attempts":12,"first_kills":10,"first_deaths":13,"utility_assists":9,"clutches_won":3,"clutch_opportunities":5,"trade_kills":6,"trade_opportunities":12}},
+        {"player_id":"pls-p2","kills":42,"deaths":41,"assists":14,"agents":["Beacon-4"],"skill_telemetry":{"aim_duels_won":7,"aim_duel_attempts":14,"first_kills":7,"first_deaths":7,"utility_assists":14,"clutches_won":3,"clutch_opportunities":4,"trade_kills":9,"trade_opportunities":17}},
+        {"player_id":"pls-p3","kills":40,"deaths":45,"assists":19,"agents":["Nimbus-6","Obscura-5"],"skill_telemetry":{"aim_duels_won":9,"aim_duel_attempts":17,"first_kills":5,"first_deaths":7,"utility_assists":19,"clutches_won":2,"clutch_opportunities":3,"trade_kills":4,"trade_opportunities":9}},
+        {"player_id":"pls-p4","kills":38,"deaths":49,"assists":24,"agents":["Anchor-8"],"skill_telemetry":{"aim_duels_won":10,"aim_duel_attempts":19,"first_kills":5,"first_deaths":5,"utility_assists":23,"clutches_won":2,"clutch_opportunities":6,"trade_kills":7,"trade_opportunities":14}},
+        {"player_id":"pls-p5","kills":36,"deaths":53,"assists":22,"agents":["Beacon-4","Nimbus-6"],"skill_telemetry":{"aim_duels_won":6,"aim_duel_attempts":12,"first_kills":5,"first_deaths":6,"utility_assists":22,"clutches_won":1,"clutch_opportunities":5,"trade_kills":9,"trade_opportunities":19}}
+      ]
+    },
+    {
+      "id": "rft-wav",
+      "played_on": "2026-01-11",
+      "team_a": "RFT",
+      "team_b": "WAV",
+      "source_id": "valsim-demo",
+      "source_url": "https://github.com/Unknownuserfrommars/ValSim/blob/main/data/player_snapshots/demo_group_b.json",
+      "maps": [{"name":"Glass Harbor","score":[14,12]},{"name":"Observatory","score":[13,6]}],
+      "players": [
+        {"player_id":"rft-p1","kills":33,"deaths":32,"assists":7,"agents":["Kestrel-7"],"skill_telemetry":{"aim_duels_won":7,"aim_duel_attempts":13,"first_kills":6,"first_deaths":9,"utility_assists":7,"clutches_won":1,"clutch_opportunities":5,"trade_kills":5,"trade_opportunities":11}},
+        {"player_id":"rft-p2","kills":26,"deaths":22,"assists":11,"agents":["Beacon-4","Compass-2"],"skill_telemetry":{"aim_duels_won":8,"aim_duel_attempts":15,"first_kills":5,"first_deaths":5,"utility_assists":11,"clutches_won":1,"clutch_opportunities":4,"trade_kills":7,"trade_opportunities":16}},
+        {"player_id":"rft-p3","kills":35,"deaths":24,"assists":14,"agents":["Nimbus-6"],"skill_telemetry":{"aim_duels_won":9,"aim_duel_attempts":18,"first_kills":2,"first_deaths":4,"utility_assists":14,"clutches_won":0,"clutch_opportunities":3,"trade_kills":9,"trade_opportunities":21}},
+        {"player_id":"rft-p4","kills":33,"deaths":26,"assists":11,"agents":["Anchor-8"],"skill_telemetry":{"aim_duels_won":10,"aim_duel_attempts":20,"first_kills":3,"first_deaths":4,"utility_assists":11,"clutches_won":3,"clutch_opportunities":6,"trade_kills":5,"trade_opportunities":13}},
+        {"player_id":"rft-p5","kills":31,"deaths":29,"assists":14,"agents":["Beacon-4","Nimbus-6"],"skill_telemetry":{"aim_duels_won":7,"aim_duel_attempts":13,"first_kills":3,"first_deaths":4,"utility_assists":14,"clutches_won":3,"clutch_opportunities":5,"trade_kills":7,"trade_opportunities":18}},
+        {"player_id":"wav-p1","kills":28,"deaths":35,"assists":5,"agents":["Kestrel-7"],"skill_telemetry":{"aim_duels_won":10,"aim_duel_attempts":19,"first_kills":8,"first_deaths":7,"utility_assists":5,"clutches_won":0,"clutch_opportunities":3,"trade_kills":4,"trade_opportunities":14}},
+        {"player_id":"wav-p2","kills":21,"deaths":38,"assists":7,"agents":["Beacon-4","Compass-2"],"skill_telemetry":{"aim_duels_won":6,"aim_duel_attempts":12,"first_kills":6,"first_deaths":4,"utility_assists":7,"clutches_won":0,"clutch_opportunities":6,"trade_kills":5,"trade_opportunities":19}},
+        {"player_id":"wav-p3","kills":30,"deaths":26,"assists":10,"agents":["Nimbus-6"],"skill_telemetry":{"aim_duels_won":7,"aim_duel_attempts":15,"first_kills":4,"first_deaths":3,"utility_assists":10,"clutches_won":3,"clutch_opportunities":5,"trade_kills":6,"trade_opportunities":11}},
+        {"player_id":"wav-p4","kills":28,"deaths":28,"assists":14,"agents":["Anchor-8"],"skill_telemetry":{"aim_duels_won":8,"aim_duel_attempts":17,"first_kills":4,"first_deaths":2,"utility_assists":14,"clutches_won":2,"clutch_opportunities":4,"trade_kills":9,"trade_opportunities":16}},
+        {"player_id":"wav-p5","kills":26,"deaths":31,"assists":17,"agents":["Beacon-4","Nimbus-6"],"skill_telemetry":{"aim_duels_won":9,"aim_duel_attempts":19,"first_kills":4,"first_deaths":3,"utility_assists":17,"clutches_won":2,"clutch_opportunities":3,"trade_kills":12,"trade_opportunities":21}}
+      ]
+    },
+    {
+      "id": "bnd-dep",
+      "played_on": "2026-01-11",
+      "team_a": "BND",
+      "team_b": "DEP",
+      "source_id": "valsim-demo",
+      "source_url": "https://github.com/Unknownuserfrommars/ValSim/blob/main/data/player_snapshots/demo_group_b.json",
+      "maps": [{"name":"Granite Gate","score":[10,13]},{"name":"Breaker Cove","score":[6,13]}],
+      "players": [
+        {"player_id":"bnd-p1","kills":26,"deaths":33,"assists":6,"agents":["Kestrel-7","Vector-9"],"skill_telemetry":{"aim_duels_won":10,"aim_duel_attempts":20,"first_kills":6,"first_deaths":8,"utility_assists":6,"clutches_won":2,"clutch_opportunities":5,"trade_kills":10,"trade_opportunities":21}},
+        {"player_id":"bnd-p2","kills":19,"deaths":36,"assists":9,"agents":["Beacon-4"],"skill_telemetry":{"aim_duels_won":6,"aim_duel_attempts":13,"first_kills":5,"first_deaths":5,"utility_assists":9,"clutches_won":2,"clutch_opportunities":4,"trade_kills":6,"trade_opportunities":13}},
+        {"player_id":"bnd-p3","kills":28,"deaths":24,"assists":13,"agents":["Nimbus-6"],"skill_telemetry":{"aim_duels_won":7,"aim_duel_attempts":16,"first_kills":2,"first_deaths":3,"utility_assists":13,"clutches_won":1,"clutch_opportunities":3,"trade_kills":7,"trade_opportunities":18}},
+        {"player_id":"bnd-p4","kills":26,"deaths":27,"assists":16,"agents":["Anchor-8"],"skill_telemetry":{"aim_duels_won":8,"aim_duel_attempts":18,"first_kills":3,"first_deaths":3,"utility_assists":16,"clutches_won":0,"clutch_opportunities":6,"trade_kills":4,"trade_opportunities":10}},
+        {"player_id":"bnd-p5","kills":24,"deaths":30,"assists":12,"agents":["Beacon-4","Nimbus-6"],"skill_telemetry":{"aim_duels_won":9,"aim_duel_attempts":20,"first_kills":3,"first_deaths":4,"utility_assists":12,"clutches_won":0,"clutch_opportunities":5,"trade_kills":6,"trade_opportunities":15}},
+        {"player_id":"dep-p1","kills":35,"deaths":25,"assists":9,"agents":["Kestrel-7","Vector-9"],"skill_telemetry":{"aim_duels_won":9,"aim_duel_attempts":17,"first_kills":7,"first_deaths":7,"utility_assists":9,"clutches_won":1,"clutch_opportunities":6,"trade_kills":5,"trade_opportunities":14}},
+        {"player_id":"dep-p2","kills":29,"deaths":27,"assists":5,"agents":["Beacon-4"],"skill_telemetry":{"aim_duels_won":9,"aim_duel_attempts":19,"first_kills":5,"first_deaths":4,"utility_assists":5,"clutches_won":1,"clutch_opportunities":5,"trade_kills":7,"trade_opportunities":19}},
+        {"player_id":"dep-p3","kills":27,"deaths":29,"assists":9,"agents":["Nimbus-6"],"skill_telemetry":{"aim_duels_won":6,"aim_duel_attempts":13,"first_kills":3,"first_deaths":3,"utility_assists":9,"clutches_won":0,"clutch_opportunities":4,"trade_kills":3,"trade_opportunities":11}},
+        {"player_id":"dep-p4","kills":25,"deaths":20,"assists":12,"agents":["Anchor-8"],"skill_telemetry":{"aim_duels_won":7,"aim_duel_attempts":15,"first_kills":4,"first_deaths":2,"utility_assists":12,"clutches_won":3,"clutch_opportunities":3,"trade_kills":5,"trade_opportunities":16}},
+        {"player_id":"dep-p5","kills":34,"deaths":22,"assists":15,"agents":["Beacon-4","Nimbus-6"],"skill_telemetry":{"aim_duels_won":8,"aim_duel_attempts":17,"first_kills":4,"first_deaths":3,"utility_assists":15,"clutches_won":3,"clutch_opportunities":6,"trade_kills":6,"trade_opportunities":21}}
+      ]
+    },
+    {
+      "id": "arc-wav",
+      "played_on": "2026-01-12",
+      "team_a": "ARC",
+      "team_b": "WAV",
+      "source_id": "valsim-demo",
+      "source_url": "https://github.com/Unknownuserfrommars/ValSim/blob/main/data/player_snapshots/demo_group_b.json",
+      "maps": [{"name":"Night Market","score":[11,13]},{"name":"Glass Harbor","score":[14,12]},{"name":"Observatory","score":[10,13]}],
+      "players": [
+        {"player_id":"arc-p1","kills":51,"deaths":52,"assists":10,"agents":["Kestrel-7"],"skill_telemetry":{"aim_duels_won":8,"aim_duel_attempts":18,"first_kills":11,"first_deaths":13,"utility_assists":10,"clutches_won":3,"clutch_opportunities":3,"trade_kills":4,"trade_opportunities":10}},
+        {"player_id":"arc-p2","kills":41,"deaths":57,"assists":15,"agents":["Beacon-4"],"skill_telemetry":{"aim_duels_won":9,"aim_duel_attempts":20,"first_kills":9,"first_deaths":7,"utility_assists":15,"clutches_won":3,"clutch_opportunities":6,"trade_kills":6,"trade_opportunities":15}},
+        {"player_id":"arc-p3","kills":39,"deaths":60,"assists":20,"agents":["Nimbus-6"],"skill_telemetry":{"aim_duels_won":6,"aim_duel_attempts":14,"first_kills":5,"first_deaths":5,"utility_assists":20,"clutches_won":2,"clutch_opportunities":5,"trade_kills":7,"trade_opportunities":20}},
+        {"player_id":"arc-p4","kills":37,"deaths":42,"assists":25,"agents":["Anchor-8","Lockstep-3"],"skill_telemetry":{"aim_duels_won":7,"aim_duel_attempts":16,"first_kills":6,"first_deaths":5,"utility_assists":25,"clutches_won":1,"clutch_opportunities":4,"trade_kills":4,"trade_opportunities":12}},
+        {"player_id":"arc-p5","kills":46,"deaths":46,"assists":23,"agents":["Beacon-4"],"skill_telemetry":{"aim_duels_won":7,"aim_duel_attempts":18,"first_kills":6,"first_deaths":6,"utility_assists":23,"clutches_won":1,"clutch_opportunities":3,"trade_kills":5,"trade_opportunities":17}},
+        {"player_id":"wav-p1","kills":53,"deaths":39,"assists":10,"agents":["Kestrel-7"],"skill_telemetry":{"aim_duels_won":9,"aim_duel_attempts":18,"first_kills":11,"first_deaths":12,"utility_assists":10,"clutches_won":2,"clutch_opportunities":6,"trade_kills":6,"trade_opportunities":13}},
+        {"player_id":"wav-p2","kills":54,"deaths":43,"assists":15,"agents":["Beacon-4"],"skill_telemetry":{"aim_duels_won":10,"aim_duel_attempts":20,"first_kills":8,"first_deaths":7,"utility_assists":15,"clutches_won":2,"clutch_opportunities":5,"trade_kills":8,"trade_opportunities":18}},
+        {"player_id":"wav-p3","kills":52,"deaths":47,"assists":20,"agents":["Nimbus-6"],"skill_telemetry":{"aim_duels_won":7,"aim_duel_attempts":14,"first_kills":5,"first_deaths":7,"utility_assists":20,"clutches_won":1,"clutch_opportunities":4,"trade_kills":4,"trade_opportunities":10}},
+        {"player_id":"wav-p4","kills":50,"deaths":50,"assists":25,"agents":["Anchor-8","Lockstep-3"],"skill_telemetry":{"aim_duels_won":7,"aim_duel_attempts":16,"first_kills":6,"first_deaths":5,"utility_assists":25,"clutches_won":0,"clutch_opportunities":3,"trade_kills":6,"trade_opportunities":15}},
+        {"player_id":"wav-p5","kills":48,"deaths":35,"assists":23,"agents":["Beacon-4"],"skill_telemetry":{"aim_duels_won":8,"aim_duel_attempts":18,"first_kills":6,"first_deaths":6,"utility_assists":23,"clutches_won":0,"clutch_opportunities":6,"trade_kills":8,"trade_opportunities":20}}
+      ]
+    },
+    {
+      "id": "pls-dep",
+      "played_on": "2026-01-12",
+      "team_a": "PLS",
+      "team_b": "DEP",
+      "source_id": "valsim-demo",
+      "source_url": "https://github.com/Unknownuserfrommars/ValSim/blob/main/data/player_snapshots/demo_group_b.json",
+      "maps": [{"name":"Far Relay","score":[13,7]},{"name":"Granite Gate","score":[13,8]}],
+      "players": [
+        {"player_id":"pls-p1","kills":32,"deaths":23,"assists":9,"agents":["Kestrel-7"],"skill_telemetry":{"aim_duels_won":10,"aim_duel_attempts":19,"first_kills":6,"first_deaths":7,"utility_assists":9,"clutches_won":0,"clutch_opportunities":3,"trade_kills":4,"trade_opportunities":10}},
+        {"player_id":"pls-p2","kills":26,"deaths":25,"assists":5,"agents":["Beacon-4"],"skill_telemetry":{"aim_duels_won":6,"aim_duel_attempts":12,"first_kills":5,"first_deaths":4,"utility_assists":5,"clutches_won":0,"clutch_opportunities":6,"trade_kills":6,"trade_opportunities":15}},
+        {"player_id":"pls-p3","kills":24,"deaths":27,"assists":8,"agents":["Nimbus-6","Obscura-5"],"skill_telemetry":{"aim_duels_won":7,"aim_duel_attempts":15,"first_kills":3,"first_deaths":3,"utility_assists":8,"clutches_won":3,"clutch_opportunities":5,"trade_kills":7,"trade_opportunities":20}},
+        {"player_id":"pls-p4","kills":33,"deaths":28,"assists":12,"agents":["Anchor-8"],"skill_telemetry":{"aim_duels_won":8,"aim_duel_attempts":17,"first_kills":4,"first_deaths":2,"utility_assists":12,"clutches_won":2,"clutch_opportunities":4,"trade_kills":4,"trade_opportunities":12}},
+        {"player_id":"pls-p5","kills":31,"deaths":19,"assists":15,"agents":["Beacon-4"],"skill_telemetry":{"aim_duels_won":9,"aim_duel_attempts":19,"first_kills":4,"first_deaths":3,"utility_assists":15,"clutches_won":2,"clutch_opportunities":3,"trade_kills":5,"trade_opportunities":17}},
+        {"player_id":"dep-p1","kills":28,"deaths":24,"assists":5,"agents":["Kestrel-7"],"skill_telemetry":{"aim_duels_won":8,"aim_duel_attempts":16,"first_kills":6,"first_deaths":7,"utility_assists":5,"clutches_won":3,"clutch_opportunities":5,"trade_kills":7,"trade_opportunities":13}},
+        {"player_id":"dep-p2","kills":21,"deaths":27,"assists":8,"agents":["Beacon-4"],"skill_telemetry":{"aim_duels_won":8,"aim_duel_attempts":18,"first_kills":5,"first_deaths":4,"utility_assists":8,"clutches_won":3,"clutch_opportunities":4,"trade_kills":10,"trade_opportunities":18}},
+        {"player_id":"dep-p3","kills":19,"deaths":30,"assists":11,"agents":["Nimbus-6","Obscura-5"],"skill_telemetry":{"aim_duels_won":5,"aim_duel_attempts":12,"first_kills":2,"first_deaths":4,"utility_assists":11,"clutches_won":2,"clutch_opportunities":3,"trade_kills":5,"trade_opportunities":10}},
+        {"player_id":"dep-p4","kills":28,"deaths":31,"assists":15,"agents":["Anchor-8"],"skill_telemetry":{"aim_duels_won":6,"aim_duel_attempts":14,"first_kills":3,"first_deaths":3,"utility_assists":15,"clutches_won":1,"clutch_opportunities":6,"trade_kills":8,"trade_opportunities":15}},
+        {"player_id":"dep-p5","kills":26,"deaths":34,"assists":18,"agents":["Beacon-4"],"skill_telemetry":{"aim_duels_won":7,"aim_duel_attempts":16,"first_kills":3,"first_deaths":4,"utility_assists":18,"clutches_won":1,"clutch_opportunities":5,"trade_kills":10,"trade_opportunities":20}}
+      ]
+    },
+    {
+      "id": "rft-bnd",
+      "played_on": "2026-01-12",
+      "team_a": "RFT",
+      "team_b": "BND",
+      "source_id": "valsim-demo",
+      "source_url": "https://github.com/Unknownuserfrommars/ValSim/blob/main/data/player_snapshots/demo_group_b.json",
+      "maps": [{"name":"Switchyard","score":[6,13]},{"name":"Night Market","score":[9,13]}],
+      "players": [
+        {"player_id":"rft-p1","kills":32,"deaths":25,"assists":5,"agents":["Kestrel-7"],"skill_telemetry":{"aim_duels_won":11,"aim_duel_attempts":20,"first_kills":5,"first_deaths":8,"utility_assists":5,"clutches_won":1,"clutch_opportunities":3,"trade_kills":3,"trade_opportunities":9}},
+        {"player_id":"rft-p2","kills":25,"deaths":28,"assists":6,"agents":["Beacon-4","Compass-2"],"skill_telemetry":{"aim_duels_won":7,"aim_duel_attempts":13,"first_kills":5,"first_deaths":5,"utility_assists":6,"clutches_won":1,"clutch_opportunities":6,"trade_kills":4,"trade_opportunities":14}},
+        {"player_id":"rft-p3","kills":23,"deaths":29,"assists":9,"agents":["Nimbus-6"],"skill_telemetry":{"aim_duels_won":8,"aim_duel_attempts":16,"first_kills":2,"first_deaths":3,"utility_assists":9,"clutches_won":0,"clutch_opportunities":5,"trade_kills":5,"trade_opportunities":19}},
+        {"player_id":"rft-p4","kills":21,"deaths":32,"assists":13,"agents":["Anchor-8"],"skill_telemetry":{"aim_duels_won":9,"aim_duel_attempts":18,"first_kills":3,"first_deaths":3,"utility_assists":13,"clutches_won":3,"clutch_opportunities":4,"trade_kills":3,"trade_opportunities":11}},
+        {"player_id":"rft-p5","kills":19,"deaths":35,"assists":16,"agents":["Beacon-4"],"skill_telemetry":{"aim_duels_won":10,"aim_duel_attempts":20,"first_kills":3,"first_deaths":4,"utility_assists":16,"clutches_won":3,"clutch_opportunities":3,"trade_kills":9,"trade_opportunities":16}},
+        {"player_id":"bnd-p1","kills":37,"deaths":29,"assists":9,"agents":["Kestrel-7"],"skill_telemetry":{"aim_duels_won":7,"aim_duel_attempts":14,"first_kills":7,"first_deaths":6,"utility_assists":9,"clutches_won":0,"clutch_opportunities":3,"trade_kills":4,"trade_opportunities":13}},
+        {"player_id":"bnd-p2","kills":31,"deaths":20,"assists":5,"agents":["Beacon-4","Compass-2"],"skill_telemetry":{"aim_duels_won":7,"aim_duel_attempts":16,"first_kills":5,"first_deaths":4,"utility_assists":5,"clutches_won":0,"clutch_opportunities":6,"trade_kills":5,"trade_opportunities":18}},
+        {"player_id":"bnd-p3","kills":29,"deaths":21,"assists":8,"agents":["Nimbus-6"],"skill_telemetry":{"aim_duels_won":8,"aim_duel_attempts":19,"first_kills":3,"first_deaths":3,"utility_assists":8,"clutches_won":3,"clutch_opportunities":5,"trade_kills":2,"trade_opportunities":10}},
+        {"player_id":"bnd-p4","kills":27,"deaths":24,"assists":12,"agents":["Anchor-8"],"skill_telemetry":{"aim_duels_won":5,"aim_duel_attempts":12,"first_kills":4,"first_deaths":2,"utility_assists":12,"clutches_won":2,"clutch_opportunities":4,"trade_kills":4,"trade_opportunities":15}},
+        {"player_id":"bnd-p5","kills":25,"deaths":26,"assists":15,"agents":["Beacon-4"],"skill_telemetry":{"aim_duels_won":6,"aim_duel_attempts":14,"first_kills":4,"first_deaths":3,"utility_assists":15,"clutches_won":2,"clutch_opportunities":3,"trade_kills":12,"trade_opportunities":20}}
+      ]
+    }
+  ],
+  "earlier_series": []
+}

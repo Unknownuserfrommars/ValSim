@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "id": "valsim-demo-b-2026-01-12",
+  "event_id": "valsim-demo-group-b",
+  "title": "Relay Invitational",
+  "stage": "Group B",
+  "region": "Demo region",
+  "tier": null,
+  "status": "ongoing",
+  "source": {
+    "provider": "ValSim fictional demo",
+    "reference": "Original synthetic groups and scorecards",
+    "observed_on": "2026-01-12",
+    "method": "manual",
+    "permission": "fictional_demo",
+    "verification": "unverified",
+    "notes": "All teams, players, fixtures, maps and scores in this demo are fictional."
+  },
+  "rules": {
+    "version": "demo-rules-v1",
+    "verification": "illustrative",
+    "qualification_slots": 2,
+    "rank_by": [
+      "wins",
+      "map_diff"
+    ],
+    "map_pool": [
+      "Switchyard",
+      "Granite Gate",
+      "Observatory",
+      "Night Market",
+      "Breaker Cove",
+      "Far Relay",
+      "Glass Harbor"
+    ],
+    "notes": "Fictional round-robin rules for the demo."
+  },
+  "teams": [
+    {
+      "id": "ARC",
+      "name": "Arc Meridian",
+      "wins": 2,
+      "losses": 1,
+      "map_wins": 5,
+      "map_losses": 4,
+      "round_wins": 106,
+      "round_losses": 100
+    },
+    {
+      "id": "BND",
+      "name": "Bandwidth Union",
+      "wins": 1,
+      "losses": 2,
+      "map_wins": 2,
+      "map_losses": 4,
+      "round_wins": 57,
+      "round_losses": 67
+    },
+    {
+      "id": "DEP",
+      "name": "Deep Vector",
+      "wins": 1,
+      "losses": 2,
+      "map_wins": 2,
+      "map_losses": 4,
+      "round_wins": 58,
+      "round_losses": 68
+    },
+    {
+      "id": "WAV",
+      "name": "Wave Junction",
+      "wins": 2,
+      "losses": 1,
+      "map_wins": 4,
+      "map_losses": 3,
+      "round_wins": 82,
+      "round_losses": 79
+    },
+    {
+      "id": "PLS",
+      "name": "Pulse Foundry",
+      "wins": 2,
+      "losses": 1,
+      "map_wins": 5,
+      "map_losses": 2,
+      "round_wins": 85,
+      "round_losses": 67
+    },
+    {
+      "id": "RFT",
+      "name": "Rift Assembly",
+      "wins": 1,
+      "losses": 2,
+      "map_wins": 3,
+      "map_losses": 4,
+      "round_wins": 71,
+      "round_losses": 78
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "arc-rft",
+      "team_a": "ARC",
+      "team_b": "RFT",
+      "date": "2026-01-10",
+      "best_of": 3,
+      "status": "completed",
+      "score": [
+        2,
+        1
+      ],
+      "round_score": [
+        34,
+        29
+      ]
+    },
+    {
+      "id": "bnd-pls",
+      "team_a": "BND",
+      "team_b": "PLS",
+      "date": "2026-01-10",
+      "best_of": 3,
+      "status": "completed",
+      "score": [
+        0,
+        2
+      ],
+      "round_score": [
+        15,
+        26
+      ]
+    },
+    {
+      "id": "dep-wav",
+      "team_a": "DEP",
+      "team_b": "WAV",
+      "date": "2026-01-10",
+      "best_of": 3,
+      "status": "completed",
+      "score": [
+        0,
+        2
+      ],
+      "round_score": [
+        17,
+        26
+      ]
+    },
+    {
+      "id": "arc-pls",
+      "team_a": "ARC",
+      "team_b": "PLS",
+      "date": "2026-01-11",
+      "best_of": 3,
+      "status": "completed",
+      "score": [
+        2,
+        1
+      ],
+      "round_score": [
+        37,
+        33
+      ]
+    },
+    {
+      "id": "rft-wav",
+      "team_a": "RFT",
+      "team_b": "WAV",
+      "date": "2026-01-11",
+      "best_of": 3,
+      "status": "completed",
+      "score": [
+        2,
+        0
+      ],
+      "round_score": [
+        27,
+        18
+      ]
+    },
+    {
+      "id": "bnd-dep",
+      "team_a": "BND",
+      "team_b": "DEP",
+      "date": "2026-01-11",
+      "best_of": 3,
+      "status": "completed",
+      "score": [
+        0,
+        2
+      ],
+      "round_score": [
+        16,
+        26
+      ]
+    },
+    {
+      "id": "arc-wav",
+      "team_a": "ARC",
+      "team_b": "WAV",
+      "date": "2026-01-12",
+      "best_of": 3,
+      "status": "completed",
+      "score": [
+        1,
+        2
+      ],
+      "round_score": [
+        35,
+        38
+      ]
+    },
+    {
+      "id": "pls-dep",
+      "team_a": "PLS",
+      "team_b": "DEP",
+      "date": "2026-01-12",
+      "best_of": 3,
+      "status": "completed",
+      "score": [
+        2,
+        0
+      ],
+      "round_score": [
+        26,
+        15
+      ]
+    },
+    {
+      "id": "rft-bnd",
+      "team_a": "RFT",
+      "team_b": "BND",
+      "date": "2026-01-12",
+      "best_of": 3,
+      "status": "completed",
+      "score": [
+        0,
+        2
+      ],
+      "round_score": [
+        15,
+        26
+      ]
+    },
+    {
+      "id": "arc-dep",
+      "team_a": "ARC",
+      "team_b": "DEP",
+      "date": "2026-01-13",
+      "best_of": 3,
+      "status": "scheduled"
+    },
+    {
+      "id": "wav-bnd",
+      "team_a": "WAV",
+      "team_b": "BND",
+      "date": "2026-01-13",
+      "best_of": 3,
+      "status": "scheduled"
+    },
+    {
+      "id": "pls-rft",
+      "team_a": "PLS",
+      "team_b": "RFT",
+      "date": "2026-01-13",
+      "best_of": 3,
+      "status": "scheduled"
+    },
+    {
+      "id": "arc-bnd",
+      "team_a": "ARC",
+      "team_b": "BND",
+      "date": "2026-01-14",
+      "best_of": 3,
+      "status": "scheduled"
+    },
+    {
+      "id": "dep-rft",
+      "team_a": "DEP",
+      "team_b": "RFT",
+      "date": "2026-01-14",
+      "best_of": 3,
+      "status": "scheduled"
+    },
+    {
+      "id": "wav-pls",
+      "team_a": "WAV",
+      "team_b": "PLS",
+      "date": "2026-01-14",
+      "best_of": 3,
+      "status": "scheduled"
+    }
+  ],
+  "aggregate_includes_completed": true
+}

@@ -1,0 +1,295 @@
+{
+  "schema_version": 1,
+  "id": "valsim-demo-a-2026-01-12",
+  "event_id": "valsim-demo-group-a",
+  "title": "Relay Invitational",
+  "stage": "Group A",
+  "region": "Demo region",
+  "tier": null,
+  "status": "ongoing",
+  "source": {
+    "provider": "ValSim fictional demo",
+    "reference": "Original synthetic groups and scorecards",
+    "observed_on": "2026-01-12",
+    "method": "manual",
+    "permission": "fictional_demo",
+    "verification": "unverified",
+    "notes": "All teams, players, fixtures, maps and scores in this demo are fictional."
+  },
+  "rules": {
+    "version": "demo-rules-v1",
+    "verification": "illustrative",
+    "qualification_slots": 2,
+    "rank_by": [
+      "wins",
+      "map_diff"
+    ],
+    "map_pool": [
+      "Switchyard",
+      "Granite Gate",
+      "Observatory",
+      "Night Market",
+      "Breaker Cove",
+      "Far Relay",
+      "Glass Harbor"
+    ],
+    "notes": "Fictional round-robin rules for the demo."
+  },
+  "teams": [
+    {
+      "id": "RLY",
+      "name": "Relay Array",
+      "wins": 2,
+      "losses": 1,
+      "map_wins": 5,
+      "map_losses": 4,
+      "round_wins": 111,
+      "round_losses": 103
+    },
+    {
+      "id": "OBT",
+      "name": "Orbital Grid",
+      "wins": 1,
+      "losses": 2,
+      "map_wins": 2,
+      "map_losses": 4,
+      "round_wins": 57,
+      "round_losses": 75
+    },
+    {
+      "id": "NOD",
+      "name": "Node Atlas",
+      "wins": 2,
+      "losses": 1,
+      "map_wins": 4,
+      "map_losses": 2,
+      "round_wins": 75,
+      "round_losses": 61
+    },
+    {
+      "id": "BRS",
+      "name": "Brass Signal",
+      "wins": 2,
+      "losses": 1,
+      "map_wins": 4,
+      "map_losses": 3,
+      "round_wins": 80,
+      "round_losses": 78
+    },
+    {
+      "id": "VLT",
+      "name": "Volt Lattice",
+      "wins": 1,
+      "losses": 2,
+      "map_wins": 3,
+      "map_losses": 4,
+      "round_wins": 74,
+      "round_losses": 82
+    },
+    {
+      "id": "PTH",
+      "name": "Path Division",
+      "wins": 1,
+      "losses": 2,
+      "map_wins": 3,
+      "map_losses": 4,
+      "round_wins": 77,
+      "round_losses": 75
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "rly-pth",
+      "team_a": "RLY",
+      "team_b": "PTH",
+      "date": "2026-01-10",
+      "best_of": 3,
+      "status": "completed",
+      "score": [
+        2,
+        1
+      ],
+      "round_score": [
+        36,
+        35
+      ]
+    },
+    {
+      "id": "obt-vlt",
+      "team_a": "OBT",
+      "team_b": "VLT",
+      "date": "2026-01-10",
+      "best_of": 3,
+      "status": "completed",
+      "score": [
+        0,
+        2
+      ],
+      "round_score": [
+        17,
+        26
+      ]
+    },
+    {
+      "id": "nod-brs",
+      "team_a": "NOD",
+      "team_b": "BRS",
+      "date": "2026-01-10",
+      "best_of": 3,
+      "status": "completed",
+      "score": [
+        2,
+        0
+      ],
+      "round_score": [
+        26,
+        19
+      ]
+    },
+    {
+      "id": "rly-vlt",
+      "team_a": "RLY",
+      "team_b": "VLT",
+      "date": "2026-01-11",
+      "best_of": 3,
+      "status": "completed",
+      "score": [
+        2,
+        1
+      ],
+      "round_score": [
+        39,
+        33
+      ]
+    },
+    {
+      "id": "pth-brs",
+      "team_a": "PTH",
+      "team_b": "BRS",
+      "date": "2026-01-11",
+      "best_of": 3,
+      "status": "completed",
+      "score": [
+        0,
+        2
+      ],
+      "round_score": [
+        16,
+        26
+      ]
+    },
+    {
+      "id": "obt-nod",
+      "team_a": "OBT",
+      "team_b": "NOD",
+      "date": "2026-01-11",
+      "best_of": 3,
+      "status": "completed",
+      "score": [
+        2,
+        0
+      ],
+      "round_score": [
+        27,
+        23
+      ]
+    },
+    {
+      "id": "rly-brs",
+      "team_a": "RLY",
+      "team_b": "BRS",
+      "date": "2026-01-12",
+      "best_of": 3,
+      "status": "completed",
+      "score": [
+        1,
+        2
+      ],
+      "round_score": [
+        36,
+        35
+      ]
+    },
+    {
+      "id": "vlt-nod",
+      "team_a": "VLT",
+      "team_b": "NOD",
+      "date": "2026-01-12",
+      "best_of": 3,
+      "status": "completed",
+      "score": [
+        0,
+        2
+      ],
+      "round_score": [
+        15,
+        26
+      ]
+    },
+    {
+      "id": "pth-obt",
+      "team_a": "PTH",
+      "team_b": "OBT",
+      "date": "2026-01-12",
+      "best_of": 3,
+      "status": "completed",
+      "score": [
+        2,
+        0
+      ],
+      "round_score": [
+        26,
+        13
+      ]
+    },
+    {
+      "id": "rly-nod",
+      "team_a": "RLY",
+      "team_b": "NOD",
+      "date": "2026-01-13",
+      "best_of": 3,
+      "status": "scheduled"
+    },
+    {
+      "id": "brs-obt",
+      "team_a": "BRS",
+      "team_b": "OBT",
+      "date": "2026-01-13",
+      "best_of": 3,
+      "status": "scheduled"
+    },
+    {
+      "id": "vlt-pth",
+      "team_a": "VLT",
+      "team_b": "PTH",
+      "date": "2026-01-13",
+      "best_of": 3,
+      "status": "scheduled"
+    },
+    {
+      "id": "rly-obt",
+      "team_a": "RLY",
+      "team_b": "OBT",
+      "date": "2026-01-14",
+      "best_of": 3,
+      "status": "scheduled"
+    },
+    {
+      "id": "nod-pth",
+      "team_a": "NOD",
+      "team_b": "PTH",
+      "date": "2026-01-14",
+      "best_of": 3,
+      "status": "scheduled"
+    },
+    {
+      "id": "brs-vlt",
+      "team_a": "BRS",
+      "team_b": "VLT",
+      "date": "2026-01-14",
+      "best_of": 3,
+      "status": "scheduled"
+    }
+  ],
+  "aggregate_includes_completed": true
+}
